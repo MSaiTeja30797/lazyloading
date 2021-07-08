@@ -1,0 +1,56 @@
+<div>
+  <header>
+
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark"> 
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">Navbar</a>
+    
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <!-- Navbar links -->
+       <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" routerLink='/' routerLinkActive='active'>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink='/about' routerLinkActive='active'>Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink='/contact' routerLinkActive='active'>Technologies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink='/signin' routerLinkActive='active'>Signin</a>
+          </li>
+        </ul>
+      </div>
+<!-- <section>
+      <h1>{{ title }}</h1>
+      <h2> {{ version }}</h2>
+    </section> -->
+    <!-- <nav>
+      <ul>
+        <li><a routerLink="/">Home</a></li>
+        <li><a routerLink="/about">Product</a></li>
+        <li><a routerLink="/contact">Technologies</a></li>
+        <li><a routerLink="/signin">Signin</a></li>
+      </ul>
+    </nav> -->
+</nav>
+
+  </header>
+
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+
+  <!-- <footer>
+    <a href="https://www.ganatan.com/">&copy; 2021 - www.ganatan.com</a>
+  </footer> -->
+
+</div> 
+
